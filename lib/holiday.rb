@@ -40,7 +40,6 @@ def all_supplies_in_holidays(holiday_hash)
        puts "  #{holiday_name.to_s.split("_").map {|i| i.capitalize!}.join(" ")}: #{supplies.join(", ")}"
         #binding.pry
     end
-
    end
 end
 
